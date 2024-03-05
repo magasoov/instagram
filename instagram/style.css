@@ -1,0 +1,492 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+main {
+  display: flex;
+  justify-content: center;
+  height: 900px;
+  font-family: "Roboto", sans-serif;
+}
+.main {
+  width: 350px;
+  height: 520px;
+  margin: 0 auto;
+}
+.header{
+    display: flex;
+    width: 89%;
+    margin: 0 auto;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.section_home{
+    overflow: auto;
+    /* border-top: 1px solid #111;
+    border-bottom: 1px solid #111; */
+}
+.section_home::-webkit-scrollbar{
+    display: none;
+}
+.header1{
+    height: 92.9px;
+    width: 91%;
+    margin: 0 auto;
+    display: flex;
+    overflow-x: auto; /* Включаем горизонтальный скролл */
+    white-space: nowrap; /* Позволяет элементам находиться в одной строке, без переноса на следующую */
+}
+.header1::-webkit-scrollbar{
+    display: none;
+}
+.header__main1{
+    display: flex;
+    justify-content: space-between;
+    width: 2000px; /* Ширина вашего контента */
+}
+.header__main1 div{
+    margin: 0 5px;
+}
+.prev{
+    width: 6px;
+    height: 6px;
+    background: #0098FD;
+    border-radius: 50%;
+}
+.button-clicked{
+    width: 6px;
+    height: 6px;
+    background: #0098FD;
+    border-radius: 50%;
+}
+.next{
+    width: 6px;
+    height: 6px;
+    background: #C4C4C4;
+    border-radius: 50%;
+}
+.footer-main-sect{
+    width: 100%;
+    height: 80px;
+    position: relative;
+    top: -179px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-img{
+    display: flex;
+    width: 300px;
+    align-items: center;
+    margin-top: -15px;
+    justify-content: space-between;
+}
+.footer-img img{
+    cursor: pointer;
+}
+
+
+.stories1 img{
+    cursor: pointer;
+}
+.main-cont{
+    background: url(./Apple-iPhone-15-Frame-PNG\ 1.png);
+    background-size: cover;
+    width: 375px;
+    height: 800px;
+}
+header {
+  width: 98%;
+  margin: 0 auto;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__one {
+  display: flex;
+  align-items: center;
+}
+span {
+  font-size: 12px;
+  font-weight: 600;
+}
+.div {
+  font-size: 10px;
+  padding-left: 5px;
+}
+.header__one2 img {
+  cursor: pointer;
+}
+.header__one2 {
+  padding-right: 2px;
+}
+.main-div {
+  width: 99%;
+  position: relative;
+  left: 1px;
+  margin: 0 auto;
+  height: 370px;
+  overflow: hidden; 
+}
+.main-div1 {
+  width: 99%;
+  position: relative;
+  left: 1px;
+  margin: 0 auto;
+  height: 370px;
+  overflow: hidden; 
+}
+.img-1slide{
+    width: 99.5%;
+    height: 370px;
+    padding-left: 1px;
+}
+.footer__one {
+  width: 97%;
+  margin: 0 auto;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.like {
+  display: flex;
+  position: relative;
+  left: 0;
+}
+
+.like img {
+  cursor: pointer;
+}
+.like img {
+  margin: 0 3px;
+}
+.slide {
+  padding-right: 70px;
+}
+.slide img {
+  cursor: pointer;
+}
+.sohr-img {
+  cursor: pointer;
+}
+.footer__one2 {
+  font-size: 12px;
+  padding-left: 10px;
+  padding-top: 2px;
+}
+.footer__one3 {
+  font-size: 14px;
+  padding-left: 10px;
+  padding-top: 2px;
+  color: #6f6e6e;
+  cursor: pointer;
+}
+.footer__one4 {
+  font-size: 10px;
+  padding-left: 10px;
+  padding-top: 3px;
+  color: #6f6e6e;
+}
+
+
+
+#main-content {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 10px 0 0 0;
+    color: #888888;
+  }
+  
+  a {
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: #008A68;
+  }
+  
+  svg {
+    cursor: pointer;
+    overflow: visible;
+    width: 40px;
+  }
+  svg #heart {
+    transform-origin: center;
+    animation: animateHeartOut 0.3s linear forwards;
+  }
+  svg #main-circ {
+    transform-origin: 29.5px 29.5px;
+  }
+  
+  #checkbox {
+    display: none;
+  }
+  #checkbox1 {
+    display: none;
+  }
+  label{
+    width: 35px;
+    padding-top: 4px;
+  }
+  #checkbox:checked + label svg #heart {
+    transform: scale(0.2);
+    fill: #E2264D;
+    animation: animateHeart 0.3s linear forwards 0.25s;
+  }
+  #checkbox:checked + label svg #main-circ {
+    transition: all 2s;
+    animation: animateCircle 0.3s linear forwards;
+    opacity: 1;
+  }
+  #checkbox:checked + label svg #grp1 {
+    opacity: 1;
+    transition: 0.1s all 0.3s;
+  }
+  #checkbox:checked + label svg #grp1 #oval1 {
+    transform: scale(0) translate(0, -30px);
+    transform-origin: 0 0 0;
+    transition: 0.5s transform 0.3s;
+  }
+  #checkbox:checked + label svg #grp1 #oval2 {
+    transform: scale(0) translate(10px, -50px);
+    transform-origin: 0 0 0;
+    transition: 1.5s transform 0.3s;
+  }
+  #checkbox:checked + label svg #grp2 {
+    opacity: 1;
+    transition: 0.1s all 0.3s;
+  }
+  #checkbox:checked + label svg #grp2 #oval1 {
+    transform: scale(0) translate(30px, -15px);
+    transform-origin: 0 0 0;
+    transition: 0.5s transform 0.3s;
+  }
+  #checkbox:checked + label svg #grp2 #oval2 {
+    transform: scale(0) translate(60px, -15px);
+    transform-origin: 0 0 0;
+    transition: 1.5s transform 0.3s;
+  }
+  #checkbox:checked + label svg #grp3 {
+    opacity: 1;
+    transition: 0.1s all 0.3s;
+  }
+  #checkbox:checked + label svg #grp3 #oval1 {
+    transform: scale(0) translate(30px, 0px);
+    transform-origin: 0 0 0;
+    transition: 0.5s transform 0.3s;
+  }
+  #checkbox:checked + label svg #grp3 #oval2 {
+    transform: scale(0) translate(60px, 10px);
+    transform-origin: 0 0 0;
+    transition: 1.5s transform 0.3s;
+  }
+  #checkbox:checked + label svg #grp4 {
+    opacity: 1;
+    transition: 0.1s all 0.3s;
+  }
+  #checkbox:checked + label svg #grp4 #oval1 {
+    transform: scale(0) translate(30px, 15px);
+    transform-origin: 0 0 0;
+    transition: 0.5s transform 0.3s;
+  }
+  #checkbox:checked + label svg #grp4 #oval2 {
+    transform: scale(0) translate(40px, 50px);
+    transform-origin: 0 0 0;
+    transition: 1.5s transform 0.3s;
+  }
+  #checkbox:checked + label svg #grp5 {
+    opacity: 1;
+    transition: 0.1s all 0.3s;
+  }
+  #checkbox:checked + label svg #grp5 #oval1 {
+    transform: scale(0) translate(-10px, 20px);
+    transform-origin: 0 0 0;
+    transition: 0.5s transform 0.3s;
+  }
+  #checkbox:checked + label svg #grp5 #oval2 {
+    transform: scale(0) translate(-60px, 30px);
+    transform-origin: 0 0 0;
+    transition: 1.5s transform 0.3s;
+  }
+  #checkbox:checked + label svg #grp6 {
+    opacity: 1;
+    transition: 0.1s all 0.3s;
+  }
+  #checkbox:checked + label svg #grp6 #oval1 {
+    transform: scale(0) translate(-30px, 0px);
+    transform-origin: 0 0 0;
+    transition: 0.5s transform 0.3s;
+  }
+  #checkbox:checked + label svg #grp6 #oval2 {
+    transform: scale(0) translate(-60px, -5px);
+    transform-origin: 0 0 0;
+    transition: 1.5s transform 0.3s;
+  }
+  #checkbox:checked + label svg #grp7 {
+    opacity: 1;
+    transition: 0.1s all 0.3s;
+  }
+  #checkbox:checked + label svg #grp7 #oval1 {
+    transform: scale(0) translate(-30px, -15px);
+    transform-origin: 0 0 0;
+    transition: 0.5s transform 0.3s;
+  }
+  #checkbox:checked + label svg #grp7 #oval2 {
+    transform: scale(0) translate(-55px, -30px);
+    transform-origin: 0 0 0;
+    transition: 1.5s transform 0.3s;
+  }
+  #checkbox:checked + label svg #grp2 {
+    opacity: 1;
+    transition: 0.1s opacity 0.3s;
+  }
+  #checkbox:checked + label svg #grp3 {
+    opacity: 1;
+    transition: 0.1s opacity 0.3s;
+  }
+  #checkbox:checked + label svg #grp4 {
+    opacity: 1;
+    transition: 0.1s opacity 0.3s;
+  }
+  #checkbox:checked + label svg #grp5 {
+    opacity: 1;
+    transition: 0.1s opacity 0.3s;
+  }
+  #checkbox:checked + label svg #grp6 {
+    opacity: 1;
+    transition: 0.1s opacity 0.3s;
+  }
+  #checkbox:checked + label svg #grp7 {
+    opacity: 1;
+    transition: 0.1s opacity 0.3s;
+  }
+  
+  @keyframes animateCircle {
+    40% {
+      transform: scale(10);
+      opacity: 1;
+      fill: #DD4688;
+    }
+    55% {
+      transform: scale(11);
+      opacity: 1;
+      fill: #D46ABF;
+    }
+    65% {
+      transform: scale(12);
+      opacity: 1;
+      fill: #CC8EF5;
+    }
+    75% {
+      transform: scale(13);
+      opacity: 1;
+      fill: transparent;
+      stroke: #CC8EF5;
+      stroke-width: 0.5;
+    }
+    85% {
+      transform: scale(17);
+      opacity: 1;
+      fill: transparent;
+      stroke: #CC8EF5;
+      stroke-width: 0.2;
+    }
+    95% {
+      transform: scale(18);
+      opacity: 1;
+      fill: transparent;
+      stroke: #CC8EF5;
+      stroke-width: 0.1;
+    }
+    100% {
+      transform: scale(19);
+      opacity: 1;
+      fill: transparent;
+      stroke: #CC8EF5;
+      stroke-width: 0;
+    }
+  }
+  @keyframes animateHeart {
+    0% {
+      transform: scale(0.2);
+    }
+    40% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  @keyframes animateHeartOut {
+    0% {
+      transform: scale(1.4);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  /* слайды */
+  .slideshow-container {
+    position: relative;
+    width: 100%;
+    max-width: 600px; /* Ширина контейнера слайдов */
+    margin: auto;
+  }
+
+  .slides {
+    position: relative;
+    width: 100%;
+    height: 300px; /* Высота слайдов */
+    overflow: hidden; /* Скрытие части слайдов, которая не помещается */
+  }
+
+  .slides img {
+    width: 100%;
+    height: auto;
+    display: none; /* Скрываем изображения по умолчанию */
+  }
+
+  /* Показываем только первое изображение */
+  .slides img:first-child {
+    display: block;
+  }
+
+.direct{
+  margin-top: 710px;
+  position: relative;
+  right: 6px;
+  padding: 150px 118.5px;
+  background-color: white;
+  z-index: 10001;
+  border-radius: 0 0 50px 50px;
+}
+.dir_header1{
+  position: relative;
+  display: flex;
+  left: -150px;
+  width: 100%;
+}
+.insta{
+  position: relative;
+  top: -80px;
+}
+
+.h2{
+  font-size: 20px;
+}
+.p{
+  font-size: 12px;
+}
